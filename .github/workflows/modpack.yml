@@ -20,7 +20,7 @@ jobs:
         path: packwiz
 
     - name: Build packwiz
-      run: go build -C ../packwiz-repo
+      run: go build -C ../packwiz
 
     - name: Checkout
       uses: actions/checkout@v1
