@@ -1,0 +1,13 @@
+name = "BuildersRefuge"
+author = "BuildersRefuge"
+version = "1.20-v1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "db2644c77f079798171b51671af62402dc9e99ff8d4acdf22c07b8afb1de2bb6"
+
+[versions]
+fabric = "0.14.24"
+minecraft = "1.20.2"

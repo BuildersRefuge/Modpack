@@ -1,0 +1,11 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/axiom.pw.toml"
+hash = "a7a6020cc735b4ba724825159e91b48c4113b9fa2f8390fe0ea9c4de8e23e6b3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "6c6ebc716eee42c2f60899e53dfcea8ac6e374222d1eff7eff29b9f599012bb5"
+metafile = true
