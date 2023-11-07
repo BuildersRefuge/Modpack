@@ -17,7 +17,6 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: 'stable'
-        cache-dependency-path: ../packwiz/go.sum
     - name: Build packwiz
       run: go build -C ../packwiz
 
