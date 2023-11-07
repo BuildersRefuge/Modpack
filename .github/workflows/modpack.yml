@@ -20,16 +20,7 @@ jobs:
         path: packwiz-repo
 
     - name: Build packwiz
-      run: go build -C ../packwiz-repo
-
-    - name: Clean up
-      run: mv ../packwiz-repo/packwiz .
-
-  modpack:
-    name: Bundle modpack
-    runs-on: ubuntu-latest
-    needs: packwiz
-    steps:
+      run: go build -C ../packwiz-repo && mv ../packwiz-repo/packwiz .
 
     - name: Checkout
       uses: actions/checkout@v1
