@@ -17,10 +17,13 @@ jobs:
       with:
         repository: packwiz/packwiz
         ref: refs/heads/main
-        path: packwiz
+        path: packwiz-repo
 
     - name: Build packwiz
-      run: go build -C packwiz && mv packwiz packwiz-repo && mv packwiz-repo/packwiz packwiz && rm -rf packwiz-repo
+      run: go build
+
+    - name: Clean up
+      run: mv packwiz .. && cd .. && rm -rf packwiz-repo
 
   modpack:
     name: Bundle modpack
