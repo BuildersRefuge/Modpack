@@ -1,0 +1,4 @@
+capabilities {
+    flightCameraDirection=false
+    flightMomentum=1
+}

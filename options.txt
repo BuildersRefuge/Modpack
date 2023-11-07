@@ -1,0 +1,6 @@
+narrator:0
+realmsNotifications:false
+skipMultiplayerWarning:true
+guiScale:2
+maxFps:260
+renderDistance:32

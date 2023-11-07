@@ -1,11 +1,144 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/axiom/axiom.hocon"
+hash = "dd5ac685f2b71d6e7b87a387e7e8338a3b96fec37de29dbc323e530c89a5e433"
+
+[[files]]
+file = "config/dark-loading-screen.json"
+hash = "d5255e5782980d79c7d5ef8aeab25a91ae2b51912f9c6a074cf8e50af82a3843"
+
+[[files]]
+file = "config/holdthatchunk.json"
+hash = "bf48cb31a5706bf3c586da611cf468235b4c8e48e4a7e02d7d4eef4e4a06b63d"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "3fcf00d36da6620793b1920c3dc19573681e97310bb51a33729f9471ef34ce4c"
+
+[[files]]
+file = "icon.png"
+hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "a7a6020cc735b4ba724825159e91b48c4113b9fa2f8390fe0ea9c4de8e23e6b3"
+metafile = true
+
+[[files]]
+file = "mods/borderless-mining.pw.toml"
+hash = "5cc5a514cc9b8567abda1d5860a8ac3afdf868906caf9bd24c6c534943e1fb4c"
+metafile = true
+
+[[files]]
+file = "mods/chat-signing-hider.pw.toml"
+hash = "196214d25144ebdbf48a120b9d7bac441fa097ab882a9584a605257b47e2150e"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1fc52599bb002e467661afaa4b844c517fb549ad14eb6f552bf11dfb5c8b535e"
+metafile = true
+
+[[files]]
+file = "mods/dark-loading-screen.pw.toml"
+hash = "97ca0b01ac6888486402018e7c95ec3b219a89c3338a416fd25418def5f51fa1"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "6c6ebc716eee42c2f60899e53dfcea8ac6e374222d1eff7eff29b9f599012bb5"
 metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "c20c449b77e7e40bf6b5308d63223b634eb6a857bf3b22d31e9c41f6e03d399b"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "5821b6cd9a88dac8e7c09268dd7ca025456190038fdd20f8b38ad5509092bd08"
+metafile = true
+
+[[files]]
+file = "mods/hold-that-chunk.pw.toml"
+hash = "88d504ca7157466de1a296c456a95e20412bf14bec48e606499fe3319a9ddbab"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "7df52a269aaabcb9c4d3ce72322177f4cb5d2e8fc8d506554fa6b6290b0ad548"
+metafile = true
+
+[[files]]
+file = "mods/mods-command.pw.toml"
+hash = "3f986955b1fec4bada6e3240d055ecf550456a0c2aa36629de7b25233e9baaf5"
+metafile = true
+
+[[files]]
+file = "mods/morechathistory.pw.toml"
+hash = "eb9ed14436b79290cec3dfe2a87c0b32d0f369859ceb98834a24ee580c61da88"
+metafile = true
+
+[[files]]
+file = "mods/no-realms-button.pw.toml"
+hash = "b3798846ca6ba77728b169b7656a0fe108449917418df2273395859e1f1460ea"
+metafile = true
+
+[[files]]
+file = "mods/nonarrator.pw.toml"
+hash = "29ec475b777e445b4a0ce34b30a9c04ae68453eba365f7d676a509cad5365abf"
+metafile = true
+
+[[files]]
+file = "mods/pick-block-pro.pw.toml"
+hash = "5915da1e2e03828deeec1a2353c9a884caf00885c6477ee0075393c776572b80"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "92fbfef541293794a06fdc71deedfb86d12fc2f3e5fc42842f94bb9f6a42e2ed"
+metafile = true
+
+[[files]]
+file = "mods/resourcify.pw.toml"
+hash = "117130af5469d819945a45852e3c5d0ece7bc24fe2f3ee4d7d6ba90e738ed477"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-to-clipboard.pw.toml"
+hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/serverpingerfixer.pw.toml"
+hash = "67f574649175ed1bdbe138efbf15c2e49da6b328d7402ddeeef75b416b9c4523"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "ebe386eef0fb117e3bc3252786fbca4b3f05e45eb2cc8e2f56549aad396d244f"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "ff614f50beb3bc29a699dbcc0a61f65bd6c6154cd374f2763ee57cf578045a8f"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "02ef9ff4e5353318f237a2d47d9f2ac43d3bf0d408dba2034ca18e8aeebbeb39"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "7136f6b2eaba24d51b34d48e3b1fc3f00a547efbb20dfcb80a954557f95a4057"
+
+[[files]]
+file = "servers.dat"
+hash = "43f5c55a7bba4d11da5af0fde081aa0b3507b8b2a5ae6b31e6fb763e05fa2ad1"
