@@ -17,16 +17,16 @@ jobs:
       with:
         repository: packwiz/packwiz
         ref: refs/heads/main
-        path: packwiz-repo
+        path: packwiz
 
     - name: Build packwiz
-      run: go build -C ../packwiz-repo && mv ../packwiz-repo/packwiz .
+      run: go build -C ../packwiz-repo
 
     - name: Checkout
       uses: actions/checkout@v1
 
     - name: Export modpack
-      run: ./packwiz modrinth export
+      run: ../packwiz/packwiz modrinth export
 
     - name: Upload artifact
       uses: actions/upload-artifact@v2
