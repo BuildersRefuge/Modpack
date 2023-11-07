@@ -7,16 +7,17 @@ jobs:
     steps:
 
     # packwiz
-    - name: Set up Go
-      uses: actions/setup-go@v4
-      with:
-        go-version: 'stable'
     - name: Checkout packwiz
       uses: actions/checkout@v1
       with:
         repository: packwiz/packwiz
         ref: refs/heads/main
         path: packwiz
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: 'stable'
+        cache-dependency-path: ../packwiz/go.sum
     - name: Build packwiz
       run: go build -C ../packwiz
 
