@@ -2,33 +2,31 @@ name: Modpack
 on: [push, pull_request]
 
 jobs:
-  packwiz:
-    name: Setup packwiz
+  modpack:
     runs-on: ubuntu-latest
     steps:
 
+    # packwiz
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: 'stable'
-
     - name: Checkout packwiz
       uses: actions/checkout@v1
       with:
         repository: packwiz/packwiz
         ref: refs/heads/main
         path: packwiz
-
     - name: Build packwiz
       run: go build -C ../packwiz
 
+    # modpack
     - name: Checkout
       uses: actions/checkout@v1
-
     - name: Export modpack
       run: ../packwiz/packwiz modrinth export
-
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
+        name: Modpack
         path: '*.mrpack'
