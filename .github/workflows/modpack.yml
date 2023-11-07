@@ -20,10 +20,10 @@ jobs:
         path: packwiz-repo
 
     - name: Build packwiz
-      run: ls && pwd && go build -C packwiz-repo
+      run: go build -C ../packwiz-repo
 
     - name: Clean up
-      run: mv packwiz .. && cd .. && rm -rf packwiz-repo
+      run: mv ../packwiz-repo/packwiz .
 
   modpack:
     name: Bundle modpack
