@@ -5,26 +5,16 @@ jobs:
   modpack:
     runs-on: ubuntu-latest
     steps:
-
-    # packwiz
-    - name: Checkout packwiz
+    - name: Checkout
       uses: actions/checkout@v1
-      with:
-        repository: packwiz/packwiz
-        ref: refs/heads/main
-        path: packwiz
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: 'stable'
-    - name: Build packwiz
-      run: go build -C ../packwiz
-
-    # modpack
-    - name: Checkout
-      uses: actions/checkout@v1
+    - name: Install packwiz
+      run: go install github.com/packwiz/packwiz@latest
     - name: Export modpack
-      run: ../packwiz/packwiz modrinth export
+      run: packwiz modrinth export
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
