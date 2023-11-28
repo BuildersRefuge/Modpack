@@ -22,7 +22,7 @@ hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "a7a6020cc735b4ba724825159e91b48c4113b9fa2f8390fe0ea9c4de8e23e6b3"
+hash = "23c00cc1b55030c1d533b0ca495bbfbd4ba19350e1fa998509fb2420a810d77f"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "1fc52599bb002e467661afaa4b844c517fb549ad14eb6f552bf11dfb5c8b535e"
+hash = "da5355d446fc91093171b0d6a082e5056498eb59b5a6ec51f8f4d194a0abc58a"
 metafile = true
 
 [[files]]
@@ -52,12 +52,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "6c6ebc716eee42c2f60899e53dfcea8ac6e374222d1eff7eff29b9f599012bb5"
+hash = "d171eabd7e1e44aaf3437dff4887bd02d2bb90f54c219417f538278b0f6cda12"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c20c449b77e7e40bf6b5308d63223b634eb6a857bf3b22d31e9c41f6e03d399b"
+hash = "d2c2ff7235ed661ed8fb82e20a6de85b147e69c4b1cf1cc9102ebf8fe102636f"
 metafile = true
 
 [[files]]
