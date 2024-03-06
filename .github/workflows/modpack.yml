@@ -13,6 +13,8 @@ jobs:
         go-version: 'stable'
     - name: Install packwiz
       run: go install github.com/packwiz/packwiz@latest
+    - name: Set pack version
+      run: sed -i 's/version = "1.20"/version = "'$(grep "version = " pack.toml | awk -F'"' '{print $2}')-$(git rev-parse --short HEAD)'"/' pack.toml
     - name: Export modpack
       run: packwiz modrinth export
     - name: Upload artifact
