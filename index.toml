@@ -22,22 +22,22 @@ hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "a61bced294a28ea27900396a34e08f228169ad2af5e2da701626e5be5df187a0"
-metafile = true
-
-[[files]]
-file = "mods/borderless-mining.pw.toml"
-hash = "5cc5a514cc9b8567abda1d5860a8ac3afdf868906caf9bd24c6c534943e1fb4c"
+hash = "97102c00b291f7b018776675dea0bcd7fe25f951db9a702c6bc6b6c0c428bd62"
 metafile = true
 
 [[files]]
 file = "mods/chat-signing-hider.pw.toml"
-hash = "5f8a6efe203a0b99f5819bd616022bc8d11137dfba726aa499a021c9d3623fd3"
+hash = "baf57330082a5ba02bdf529a043bf02f1c208b2630743a9d26288d20a85c1eab"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "c6fb2a9c31fe297e65fbb72c20967c498860168082a5d7881487dcb1a61ac72c"
+hash = "f250d6778f5b8d03ca32913bea5ea677508e9bb6d8201cdebe005bbe9c3100ee"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "1a65361cf2207ba6bad6eba3e66e407983452398c4ac5cbe5db0d8430b8a6496"
 metafile = true
 
 [[files]]
@@ -52,17 +52,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1dea1472741762757eed29f76877f5913b0e445aa5e91a43ec9dcab63149e190"
+hash = "bc5559ece399ce470ad9bb879827ab460b3e5c5c113b39ae18ace6c33d875d1c"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "a856296531bab559c7dbe061827078e206b9cf194be3be618c462c62ab4fd841"
+hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
 metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "5821b6cd9a88dac8e7c09268dd7ca025456190038fdd20f8b38ad5509092bd08"
+hash = "170ea395764e635c34c8d44aff02447a44aca3006c6591be355482041e437d6b"
 metafile = true
 
 [[files]]
@@ -72,22 +72,12 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "45eda4160256d4c4394a982c67167ff4b85e218834e60203128b850b38b4821b"
-metafile = true
-
-[[files]]
-file = "mods/mods-command.pw.toml"
-hash = "3f986955b1fec4bada6e3240d055ecf550456a0c2aa36629de7b25233e9baaf5"
+hash = "7169f560465ba70f204d3c4189cf3d1faef8ae6cf3dc063733a4d53f612a4d94"
 metafile = true
 
 [[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "1447b2cbf7c1d96fd410f85fdd029c1de4a4f8709d09146e602b6054065e49c0"
-metafile = true
-
-[[files]]
-file = "mods/no-realms-button.pw.toml"
-hash = "b3798846ca6ba77728b169b7656a0fe108449917418df2273395859e1f1460ea"
 metafile = true
 
 [[files]]
@@ -97,12 +87,12 @@ metafile = true
 
 [[files]]
 file = "mods/pick-block-pro.pw.toml"
-hash = "90b29bd8342e6f8467d7abe28ab810b9e2dad072debf111faf8e108a4f329032"
+hash = "c0cca42fbadfbb574ff4cb050c31f694e65d28589117af8b12bce4598e295aa7"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "92fbfef541293794a06fdc71deedfb86d12fc2f3e5fc42842f94bb9f6a42e2ed"
+hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
 metafile = true
 
 [[files]]
@@ -122,17 +112,17 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "ebe386eef0fb117e3bc3252786fbca4b3f05e45eb2cc8e2f56549aad396d244f"
+hash = "f7c09e537f9db67804dd7df6b8ba3a0cfb63429ad992a99e8f8faba33187ded2"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "4198bbe1756d96d29a82f0134bcbd5f7a2b5c4447b8628fc19fda0d9c712f868"
+hash = "5e73967368d47038c38dc52fa298b45603fbe6baf2608f171638ff767178ad9a"
 metafile = true
 
 [[files]]
 file = "mods/worldeditcui-fabric.pw.toml"
-hash = "02ef9ff4e5353318f237a2d47d9f2ac43d3bf0d408dba2034ca18e8aeebbeb39"
+hash = "faf0c6a3a1973e7611c9d6c8fffc30a6381e48468e55bb2fa48d3edd52ee0d7e"
 metafile = true
 
 [[files]]

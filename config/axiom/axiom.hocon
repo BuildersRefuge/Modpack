@@ -1,4 +1,9 @@
 capabilities {
-    flightCameraDirection=false
+    invertCameraRotate=true
+#    crosshairCamera=mouseleft
+#    useTool=mouseleft
+#    panCamera="ctrl+mouseright"
+#    rotateCamera=mouseright
+#    arcballCamera="ctrl+mouseleft"
     flightMomentum=1
 }
