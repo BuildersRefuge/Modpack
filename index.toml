@@ -22,7 +22,7 @@ hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "076e38e5c766351948e354a9236e0bb3bd1ef765a4cd92ebf5e2ed2abc53648d"
+hash = "fa12e17b279c8f338cb30f56e34594867792293a6a3bcb92f63c4822340e5b2a"
 metafile = true
 
 [[files]]
@@ -31,13 +31,18 @@ hash = "baf57330082a5ba02bdf529a043bf02f1c208b2630743a9d26288d20a85c1eab"
 metafile = true
 
 [[files]]
+file = "mods/chatpatches.pw.toml"
+hash = "a51b33bcd3b78e17a8f3b2253d001a2ed85dc9f101184a924a5f2ed75089358c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "f250d6778f5b8d03ca32913bea5ea677508e9bb6d8201cdebe005bbe9c3100ee"
+hash = "931fa7587facbc9b334c7539722b2dacaac520f253ebfbc5b87665d5abbcea77"
 metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "1a65361cf2207ba6bad6eba3e66e407983452398c4ac5cbe5db0d8430b8a6496"
+hash = "9a25a41714e3cba98573c490583442e3329a07b87bef44df7ac47ac00bac4d5a"
 metafile = true
 
 [[files]]
@@ -47,17 +52,17 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "ee965d6f2e0a9cdc31139b0d8a3367eb8db031065a03142534652573626e9787"
+hash = "7730f7bf5e9d26ed4a89e843461bd8ff2c6d9cdb37be663f797ae1ea0aef9bdf"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "07e0e6a791f94db3ff245a16ba014936e35410fe0ee9aba9cbac2deee25f5a70"
+hash = "c0b641b5e3f1f71278913888d83d8a7727f4fe058a60d8f99d89fb388c7c473f"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
+hash = "a0f68c2f7f4138a8abde7f8001fa92df3daa863490572b790ffd074a31903b02"
 metafile = true
 
 [[files]]
@@ -72,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "9e7bccd0c45b66352abd6fc0b1fa2745d564deb24f5c53dd20728847cf27dda0"
+hash = "96cafb1b451ce577f0a74045704c2f51c3ab34d63fbba81df669c21646d33bff"
 metafile = true
 
 [[files]]
@@ -97,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "38d6d6cb5d11256125bd1d47359420192bf2c2e01ba480838d9b0af94a06b7ca"
+hash = "1efd332d6e2db1faaa1425523f140bf563f6fa6da1a83cca63076f4d96e29868"
 metafile = true
 
 [[files]]
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/worldeditcui-fabric.pw.toml"
 hash = "faf0c6a3a1973e7611c9d6c8fffc30a6381e48468e55bb2fa48d3edd52ee0d7e"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "1b9b0d088b4e27d550c76e57bd51c6a92ff9c164c8da769f5b993bb5d4b342bf"
 metafile = true
 
 [[files]]
