@@ -7,18 +7,24 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
         go-version: 'stable'
+
     - name: Install packwiz
       run: go install github.com/packwiz/packwiz@latest
+
     - name: Set pack version
       run: sed -i 's/version = "1.20"/version = "'$(grep "version = " pack.toml | awk -F'"' '{print $2}')-$(git rev-parse --short HEAD)'"/' pack.toml
+
     - name: Export modpack
       run: packwiz modrinth export
+
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: Modpack
         path: '*.mrpack'
+        if-no-files-found: error
