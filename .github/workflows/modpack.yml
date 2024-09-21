@@ -5,6 +5,9 @@ jobs:
   modpack:
     runs-on: ubuntu-latest
     steps:
+    - name: Install utilities
+      run: sudo apt-get install -y httpie jq moreutils
+    
     - name: Checkout
       uses: actions/checkout@v1
 
@@ -17,14 +20,47 @@ jobs:
       run: go install github.com/packwiz/packwiz@latest
 
     - name: Set pack version
-      run: sed -i 's/version = "1.20"/version = "'$(grep "version = " pack.toml | awk -F'"' '{print $2}')-$(git rev-parse --short HEAD)'"/' pack.toml
-
+      run: |
+        BRANCH=$(git symbolic-ref --short HEAD)
+        COMMIT=$(git rev-parse --short HEAD)
+        sed -i "s/version = \".*\"/version = \"$BRANCH-$COMMIT\"/" pack.toml
     - name: Export modpack
       run: packwiz modrinth export
-
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: Modpack
         path: '*.mrpack'
         if-no-files-found: error
+
+    - name: Delete old version
+      run: |
+        VERSION_DATA=$(curl -s -H "Authorization: ${{ secrets.PAT }}" "https://api.modrinth.com/v2/project/builders-refuge/version")
+        LATEST_VERSION=$(echo $VERSION_DATA | jq -r '.[0].id')
+        curl -X DELETE "https://api.modrinth.com/v2/version/$LATEST_VERSION" -H "Authorization: ${{ secrets.PAT }}"
+
+    - name: Upload new version to Modrinth
+      run: |
+        BRANCH=$(git symbolic-ref --short HEAD)
+        COMMIT=$(git rev-parse --short HEAD)
+        MINECRAFT_VERSION=$(grep "minecraft = " pack.toml | awk -F'"' '{print $2}')
+
+        echo '{
+          "project_id": "9P5UIBzb",
+          "dependencies": [],
+          "version_type": "release",
+          "loaders": ["fabric"],
+          "featured": true,
+          "file_parts": ["file"]
+        }' > payload.json
+        PAYLOAD=$(cat payload.json | jq \
+          --arg name "$BRANCH" \
+          --arg version "$BRANCH-$COMMIT" \
+          --arg game_version "$MINECRAFT_VERSION" \
+          '.name=$ARGS.named.name | .version_number=$ARGS.named.version | .game_versions=[$ARGS.named.game_version]')
+        echo $PAYLOAD | jq .
+
+        curl "https://api.modrinth.com/v2/version" \
+             -H "Authorization: ${{ secrets.PAT }}" \
+             -F "data=$PAYLOAD" \
+             -F "file=@$(ls *.mrpack)"
