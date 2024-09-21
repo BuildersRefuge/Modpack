@@ -29,7 +29,7 @@ jobs:
         echo '```' >> update.log
 
     - name: Update mods
-      run: packwiz update --all 2>&1 | tee -a update.log
+      run: packwiz update -y --all 2>&1 | tee -a update.log
 
     - name: Close out update log
       run: echo '```' >> update.log
