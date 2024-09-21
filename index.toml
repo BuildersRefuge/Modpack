@@ -110,6 +110,11 @@ hash = "694c91d6f341271b0b071a814fb64defbd52af1b228cb593595836c0d9f68151"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "07114208e332aa5fbc3e7144c2bac58ea74e50d4eaeac2b6c6cc5c41286bb335"
+metafile = true
+
+[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "1447b2cbf7c1d96fd410f85fdd029c1de4a4f8709d09146e602b6054065e49c0"
 metafile = true
@@ -127,6 +132,11 @@ metafile = true
 [[files]]
 file = "mods/pick-block-pro.pw.toml"
 hash = "191d97a585814197a7de908a7a9af7fe0ad81ceb9918e97cbebda995268f2bad"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "62aebeda9d90829865f633aa637ae99bc801e82dde0408a45888d60526367c30"
 metafile = true
 
 [[files]]
