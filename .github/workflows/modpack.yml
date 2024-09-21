@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Install utilities
-      run: sudo apt-get install -y httpie jq moreutils
+      run: sudo apt-get install -y jq
     
     - name: Checkout
       uses: actions/checkout@v1
@@ -21,7 +21,7 @@ jobs:
 
     - name: Set pack version
       run: |
-        BRANCH=$(git symbolic-ref --short HEAD)
+        BRANCH=$GITHUB_REF_NAME
         COMMIT=$(git rev-parse --short HEAD)
         sed -i "s/version = \".*\"/version = \"$BRANCH-$COMMIT\"/" pack.toml
     - name: Export modpack
@@ -41,7 +41,7 @@ jobs:
 
     - name: Upload new version to Modrinth
       run: |
-        BRANCH=$(git symbolic-ref --short HEAD)
+        BRANCH=$GITHUB_REF_NAME
         COMMIT=$(git rev-parse --short HEAD)
         MINECRAFT_VERSION=$(grep "minecraft = " pack.toml | awk -F'"' '{print $2}')
 
