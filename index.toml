@@ -13,6 +13,10 @@ file = "config/holdthatchunk.json"
 hash = "b35486ac893a84bd4b124ff4da42834597cb3530c29da2281c607b189e78dc4d"
 
 [[files]]
+file = "config/replaymod.json"
+hash = "4353e96331fed165dfd5dff9af6048eaa69393afe57167b66c162e5a29baddf5"
+
+[[files]]
 file = "config/sodium-options.json"
 hash = "3fcf00d36da6620793b1920c3dc19573681e97310bb51a33729f9471ef34ce4c"
 
@@ -56,6 +60,11 @@ hash = "954a9e96fd604b2ffca4cb0cfe5937e106aad8799f8c4ecbcaca1350a85c5836"
 metafile = true
 
 [[files]]
+file = "mods/ebe.pw.toml"
+hash = "21d41d6e5b14a067287e52f2f0caed27ee6c72efedf74b1261ce175823affb86"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "c0b641b5e3f1f71278913888d83d8a7727f4fe058a60d8f99d89fb388c7c473f"
 metafile = true
@@ -63,6 +72,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "a0f68c2f7f4138a8abde7f8001fa92df3daa863490572b790ffd074a31903b02"
+metafile = true
+
+[[files]]
+file = "mods/fabrishot.pw.toml"
+hash = "e41e9711b1cb8f81b3aeca084079a35d1f95350ea8d101a64d87bfa2371aa954"
 metafile = true
 
 [[files]]
@@ -76,8 +90,23 @@ hash = "88d504ca7157466de1a296c456a95e20412bf14bec48e606499fe3319a9ddbab"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "db812a9b3a4a8ea011eedc44bdc4df13a1f3cfb67130fe57d3990342566d03a8"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "96cafb1b451ce577f0a74045704c2f51c3ab34d63fbba81df669c21646d33bff"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "954646f4ee1509ca05e3d8ea9401d92c182db472fdd9936aa81dd2146a237eeb"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "694c91d6f341271b0b071a814fb64defbd52af1b228cb593595836c0d9f68151"
 metafile = true
 
 [[files]]
@@ -91,6 +120,11 @@ hash = "29ec475b777e445b4a0ce34b30a9c04ae68453eba365f7d676a509cad5365abf"
 metafile = true
 
 [[files]]
+file = "mods/nvidium.pw.toml"
+hash = "f8879a5a06411d47d27dc543c718307afb95286a0b91a593692b5a5033ade53d"
+metafile = true
+
+[[files]]
 file = "mods/pick-block-pro.pw.toml"
 hash = "191d97a585814197a7de908a7a9af7fe0ad81ceb9918e97cbebda995268f2bad"
 metafile = true
@@ -101,8 +135,18 @@ hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
 metafile = true
 
 [[files]]
+file = "mods/replaymod.pw.toml"
+hash = "8f78b899eb0bf3d8e0d557c3e27dee2dd8599a0561850c2835ebdbb630b96a8f"
+metafile = true
+
+[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "1efd332d6e2db1faaa1425523f140bf563f6fa6da1a83cca63076f4d96e29868"
+metafile = true
+
+[[files]]
+file = "mods/rrls.pw.toml"
+hash = "7bc33ad1e752b8ccb749bd6aec6485e19ceeef54be207b11af559c7318e9396a"
 metafile = true
 
 [[files]]
@@ -123,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "5e73967368d47038c38dc52fa298b45603fbe6baf2608f171638ff767178ad9a"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
 metafile = true
 
 [[files]]
