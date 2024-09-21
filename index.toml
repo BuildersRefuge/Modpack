@@ -126,8 +126,8 @@ hash = "5e73967368d47038c38dc52fa298b45603fbe6baf2608f171638ff767178ad9a"
 metafile = true
 
 [[files]]
-file = "mods/worldeditcui-fabric.pw.toml"
-hash = "faf0c6a3a1973e7611c9d6c8fffc30a6381e48468e55bb2fa48d3edd52ee0d7e"
+file = "mods/worldedit-cui.pw.toml"
+hash = "bcfe68e5cb7c51a93f77a3e624fbaeece07a874db2f8e5fde2e0fa04363f2088"
 metafile = true
 
 [[files]]
