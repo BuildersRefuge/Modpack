@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "954a9e96fd604b2ffca4cb0cfe5937e106aad8799f8c4ecbcaca1350a85c5836"
+hash = "a0312e82d7c507bdfc2e6f0c2043ba55edda0eb9a40e3ab8c81bbbffa0c41d66"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "1efd332d6e2db1faaa1425523f140bf563f6fa6da1a83cca63076f4d96e29868"
+hash = "74074c8a92c0b61b86ec2c6ef3ed22fa00be41a10ca1bafc433e1512627dcdde"
 metafile = true
 
 [[files]]
