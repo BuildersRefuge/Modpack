@@ -1,0 +1,13 @@
+name = "NarrusYeetus No Error"
+filename = "NarrusYeetus-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9E1hG4mk/versions/Sv7Gybfd/NarrusYeetus-1.0.0.jar"
+hash-format = "sha512"
+hash = "f33541b8ad0de4d25c0347684d8712ba683f555ba57e7d62960e3080c44c9bdadcbbc23289b66b21e6a43441048aea81a61a165179a017d9b4bf9b732e6eb3c5"
+
+[update]
+[update.modrinth]
+mod-id = "9E1hG4mk"
+version = "Sv7Gybfd"
