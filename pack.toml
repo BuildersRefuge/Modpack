@@ -1,16 +1,16 @@
 name = "BuildersRefuge"
 author = "BuildersRefuge"
-version = "1.21"
+version = "Kibo"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "27128e86bd2ea003bb837e6e1980f44d41b80794c81c695f7b833d361a7b8acd"
+hash = "f4ba458c013985f8bc6b83d22addfe9a24d13922d7e632882b48e1b1b1077211"
 
 [versions]
-fabric = "0.16.5"
-minecraft = "1.21.1"
+fabric = "0.16.9"
+minecraft = "1.21.3"
 
 [options]
-acceptable-game-versions = ["1.21"]
+acceptable-game-versions = ["1.21", "1.21.2"]
