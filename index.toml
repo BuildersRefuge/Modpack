@@ -6,7 +6,7 @@ hash = "149c4d72de4fd2310d5752968acc56119f08d908decfa1cde3928b785577b549"
 
 [[files]]
 file = "config/chunksfadein.properties"
-hash = "46659c5de55a7388da9ede6f8d2ae6ba425cdc1b2ab4940989c2ab2d5c633ac3"
+hash = "0a3810639dabc1e5b540d3c93adf8b517d3aaf909e1cfeddb2cad58c15469c12"
 
 [[files]]
 file = "config/dark-loading-screen.json"
@@ -104,11 +104,6 @@ hash = "88d504ca7157466de1a296c456a95e20412bf14bec48e606499fe3319a9ddbab"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "c79a98c5013dd8f1e219043aef5d77a969f9703455c5d4ca50e366ba943d0295"
-metafile = true
-
-[[files]]
 file = "mods/indium.pw.toml"
 hash = "5f694b0c16bfbf69b05cb28eef7a553ae548e623bc2cbccc98e01d950d3611db"
 metafile = true
@@ -190,7 +185,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9f996a694aa0158ca74da3ae08fb418753b7391d3d67b28df15e89db7e31e48d"
+hash = "e43454084839b810fa0fbc9a5193fca1d72470ecbc06d2138538306f08cb2849"
 metafile = true
 
 [[files]]
