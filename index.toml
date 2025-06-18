@@ -26,7 +26,7 @@ hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "24d77971f10e56ddf806383dbdcb486bda4be15cd128e6df3eb4d87907652fb5"
+hash = "e2c5f468895d241f6b1cbc55a207bf30e310bc1be4bbd3f5239d7bb5c621e198"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "b8765525f4cdd4c2a9c7db0c0ad062372350e05a780d259c2d83696718ae7b1a"
+hash = "ffbf9fef5d2eae9c4d20a038abf358a318611828b20447762d00fb9fc5b1e927"
 metafile = true
 
 [[files]]
