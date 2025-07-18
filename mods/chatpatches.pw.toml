@@ -1,13 +1,13 @@
 name = "Chat Patches"
-filename = "chatpatches-204.6.10-secure.jar"
+filename = "chatpatches-8.0-alpha.1+1.20.4-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/MOqt4Z5n/versions/utHSsPTQ/chatpatches-204.6.10-secure.jar"
+url = "https://cdn.modrinth.com/data/MOqt4Z5n/versions/PTFb7BAr/chatpatches-8.0-alpha.1%2B1.20.4-fabric.jar"
 hash-format = "sha512"
-hash = "7dfda9897bb909668833468ac3d15aa9e47589fe97347a7c6415c8e6ac06f63fa728a43f8ffa085117fe7a9b23661cee92c83202e8e09450fc62ded0eed5840d"
+hash = "ca7a735d0e4243e981206f9bef8d406c1b61c4befd9b03fd02e776c075e411ef87bc5567aed5965e27f4649706dc47777ce3a9d482f96fbf4eb96d74362e5c3e"
 
 [update]
 [update.modrinth]
 mod-id = "MOqt4Z5n"
-version = "utHSsPTQ"
+version = "PTFb7BAr"
