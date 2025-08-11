@@ -26,7 +26,7 @@ hash = "f60823f3d9807ffd23107e3fa0fb2896ec34c7f7c9a7fbd36d68506cdc869716"
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "c265ad2c9daaa7ce5ab53b9e3c63f01b39244f7f31994aae87d92599370a712b"
+hash = "709b1f7a43b006cfedbb5e2eb55dbcb26317f67479459a2ad326f2573b6f9cc0"
 metafile = true
 
 [[files]]
