@@ -1,13 +1,13 @@
 name = "NarrusYeetus No Error"
-filename = "NarrusYeetus-1.3.0.jar"
+filename = "NarrusYeetus-1.4.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9E1hG4mk/versions/Ls7qfe95/NarrusYeetus-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/9E1hG4mk/versions/8R7Nmy3K/NarrusYeetus-1.4.0.jar"
 hash-format = "sha512"
-hash = "3f220c50a6fb33a3ab50a3ae2301301b201a44d0b84dac86eccc2fc92857efcb006bae139c1c1c9ef3f3c13efecf3536c45a4f6d59250d86e3b7ba0933db47bd"
+hash = "c3d948d629d43e1b70e7dff1b3c6e3e81099276aeda6029c134efe0e744e3bb76b1d389182a0b60460bd5d93a06ef1fcc798ab2a52b5344b79c5160c5920f29e"
 
 [update]
 [update.modrinth]
 mod-id = "9E1hG4mk"
-version = "Ls7qfe95"
+version = "8R7Nmy3K"
