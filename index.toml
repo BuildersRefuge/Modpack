@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "7126365c4827587290361733a33097815e6af7648847a45dbe4fb8f201a5b52c"
+
+[[files]]
 file = "config/axiom/axiom.hocon"
 hash = "149c4d72de4fd2310d5752968acc56119f08d908decfa1cde3928b785577b549"
+
+[[files]]
+file = "config/bobby.conf"
+hash = "516bbbfa8439c095114e5aa5b9cd2718e2c90b970aae28d7d10f9145424af137"
 
 [[files]]
 file = "config/chatpatches.json"
@@ -41,6 +49,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "59658f3b9d3b86b24440008fd2031c53d538cbb35e84524bcdbc67f0de7ea251"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "6088be62ff0bc4e93388ba995418a376a1b7dfd062cce84bc36349b34ffa4af6"
 metafile = true
 
 [[files]]
@@ -235,7 +248,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "79972a42f2b181b087613275a9fb58f6487c7df603bb8f67b1b5889ab49b5262"
+hash = "aeab8f6de82bfdece0f2369c0a3ce47628d3a5180628ea98726c09dd649de95d"
 
 [[files]]
 file = "servers.dat"

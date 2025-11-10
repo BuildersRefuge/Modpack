@@ -1,0 +1,8 @@
+_version = 3
+
+[common]
+	[common.logging]
+		[common.logging.warning]
+			# If enabled, a chat message will be displayed if vanilla MC's 
+			# render distance is higher than the recommended amount.
+			showHighVanillaRenderDistanceWarning = false

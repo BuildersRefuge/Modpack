@@ -4,7 +4,7 @@ realmsNotifications:false
 skipMultiplayerWarning:true
 guiScale:2
 maxFps:260
-renderDistance:32
+renderDistance:64
 key_key.camerautils.third_person_cam_2:key.keyboard.unknown
 key_key.camerautils.detach_camera:key.keyboard.f7
 key_key.advancements:key.keyboard.unknown
