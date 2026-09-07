@@ -1,16 +1,16 @@
 name = "BuildersRefuge"
 author = "BuildersRefuge"
-version = "1.21.11"
+version = "26.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5c8c5c0a367cfb813dcec6dd93c6c9a29d61483321ec76b730615f6d2ca8e7c9"
+hash = "8ab63f6413239a0f7d0ec22a1d1b7eccaa16408f3b137602cd54e68661e14b67"
 
 [versions]
-fabric = "0.18.4"
-minecraft = "1.21.11"
+fabric = "0.19.5"
+minecraft = "26.2"
 
 [options]
-acceptable-game-versions = ["1.21.9", "1.21.10"]
+acceptable-game-versions = ["26.2"]
