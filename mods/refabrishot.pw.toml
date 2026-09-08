@@ -1,0 +1,13 @@
+name = "ReFabrishot"
+filename = "fabrishot-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b3778bae9e1f486d56f3c6b81daea82acd59343"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8668211
+project-id = 1656276
