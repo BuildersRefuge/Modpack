@@ -1,13 +1,13 @@
 name = "Nbt Display"
-filename = "nbt-display-1.0.2+1.21.9.jar"
+filename = "nbt-display-1.0.2+26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ONBe45It/versions/rinJ6uo6/nbt-display-1.0.2%2B1.21.9.jar"
+url = "https://cdn.modrinth.com/data/ONBe45It/versions/si3FBqTA/nbt-display-1.0.2%2B26.3.jar"
 hash-format = "sha512"
-hash = "aa25f76074cbfe85392b3fa488a5c0f0b26bf7da5d0f8b31a7be12532c6afe6716166a9a0517f836c9032aeccac4ea6cda844b472ac1d1a520cd1c466f984ac9"
+hash = "7458cb67db25d269d4a922608af6f3d65290c2afb235103b1e7eabd937e861b38a7b90d81712825a75630ccf69124ace49201b9fa423a77574871d13d8d1bda5"
 
 [update]
 [update.modrinth]
 mod-id = "ONBe45It"
-version = "rinJ6uo6"
+version = "si3FBqTA"
