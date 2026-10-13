@@ -1,13 +1,13 @@
 name = "Chat Patches"
-filename = "chatpatches-8.0-alpha.7+1.21.11-fabric.jar"
+filename = "chatpatches-8.0-alpha.11+1.21.11-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/MOqt4Z5n/versions/49fhleVN/chatpatches-8.0-alpha.7%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/MOqt4Z5n/versions/5QbnHot7/chatpatches-8.0-alpha.11%2B1.21.11-fabric.jar"
 hash-format = "sha512"
-hash = "2b1bb342e417848248aa6e59a2ea96b2eda114f5a72464faa82e38ef5c3b46b12d542f1b12208f7c1c8a85fd46712579eb753e16a4ec7863baa4c578965469b1"
+hash = "9db9441b92c4181eea591213f8ef1cf323ee6aaab31120c6a62eb7ca869bb1ed97014f18d8bd83c2ef350d6142255f95a434689e6ff2865a0cc4968267defd38"
 
 [update]
 [update.modrinth]
 mod-id = "MOqt4Z5n"
-version = "49fhleVN"
+version = "5QbnHot7"
