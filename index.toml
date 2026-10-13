@@ -189,6 +189,16 @@ hash = "f0a73290fba62610504e3e077bbaf1da2205f0b6a8609cc6dc9d13cf0183ef65"
 metafile = true
 
 [[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "49d151137e954e7dfc7209332bcc119581f17035c2c074cba770491deede1d49"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfiggui.pw.toml"
+hash = "5d7b2cf653cf9f613b476964b101cebf1d4429d2136310db0f958a53b5a465f5"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "cd05db76d670773ace1184abdd46126e7b7c75c2b70da82e1764cff9544c4269"
 metafile = true
